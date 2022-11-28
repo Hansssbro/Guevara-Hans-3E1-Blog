@@ -15,4 +15,10 @@ export class ComponenteDComponent implements OnInit {
   regresar(){
     this.ruta.navigate([''])
   }
+  nvg1(){
+    this.ruta.navigate(['web2'])
+  }
+  nvg2(){
+    this.ruta.navigate(['web3'])
+  }
 }

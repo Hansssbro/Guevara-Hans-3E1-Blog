@@ -16,4 +16,10 @@ export class ComponenteCComponent implements OnInit {
   regresar(){
     this.router.navigate([''])
   }
+  nvg1(){
+    this.router.navigate(['web2'])
+  }
+  nvg2(){
+    this.router.navigate(['web4'])
+  }
 }

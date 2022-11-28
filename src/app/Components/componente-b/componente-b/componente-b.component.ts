@@ -15,4 +15,10 @@ export class ComponenteBComponent implements OnInit {
   regresar(){
     this.router.navigate([''])
   }
+  nvg1(){
+    this.router.navigate(['web3'])
+  }
+  nvg2(){
+    this.router.navigate(['web4'])
+  }
 }
